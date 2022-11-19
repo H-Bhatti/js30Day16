@@ -19,8 +19,10 @@
     }
     // console.log(x, y)
 
-    const xWalk = (x / width * walk) - (walk/2);
-    const yWalk = (y / height * walk) - (walk/2);
+    const xWalk = Math.round((x / width * walk) - (walk/2));
+    const yWalk = Math.round((y / height * walk) - (walk/2));
+
+    console.log (xWalk, yWalk)
 
 
  }
